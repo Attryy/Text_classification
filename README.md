@@ -1,7 +1,7 @@
 # Text_classification
 This project aims to classify wine on the basis of wine tasting reviews with some text analysis and modeling. The data set is publicly available on [Kaggle](https://www.kaggle.com/zynicide/wine-reviews) and can also be found in the **Data** folder. There are in total around 130K records in the data set. The summary of the two columns are presented below.
 
-* **description**: description of the taster
+* **description**: description from the wine taster
 * **variety**: The type of grapes used to make the wine (eg: Pinot Noir)
 
 We are going to use the **description** column as the input and predict the varieties of the wine from the labels in **variety** column.
