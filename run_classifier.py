@@ -8,7 +8,7 @@ import flask
 import io
 import os
 
-# initialize our Flask application and the Keras model
+# initialize our Flask application and the SVM model
 app = flask.Flask(__name__)
 model = None
 
