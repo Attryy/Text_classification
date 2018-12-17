@@ -17,3 +17,5 @@ and then by sending a post request to the server, you could get the predicted wi
 ```python
 curl -d '{"description":"This wine's stone fruit and green apple aromas are lightly briny and focused. It features a tight, centered palate with vivid orange, lime and green melon flavors. The finish is compact, minerally and driven by energy."}' -H "Content-Type: application/json" -X POST http://0.0.0.0:5252/classifier
 ```
+
+More details on data processing and modelling can be found in the Jupyter Notebook.
